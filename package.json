@@ -1,0 +1,19 @@
+{
+  "name": "easybkp",
+  "version": "1.0.0",
+  "description": "Easy way to backup/restore multiple mongodb databases.",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Morceli - pirofagista@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.14.1",
+    "edit-json-file": "^1.0.8",
+    "lodash": "^4.17.5"
+  }
+}
