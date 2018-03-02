@@ -1,13 +1,15 @@
+#!/usr/bin/env node
+
 const path = require('path');
 const _ = require('lodash');
 const editJsonFile = require("edit-json-file");
 const fs = require('fs');
 
-const io = require('./lib/io');
-const backup = require('./lib/backup');
+const io = require('../lib/io');
+const backup = require('../lib/backup');
 
-const configPath = path.join(__dirname, 'config.json');
-const dumpPath = path.join(__dirname, 'dumps');
+const configPath = path.join(__dirname, '..', 'config.json');
+const dumpPath = path.join(__dirname, '..', 'dumps');
 const fileHandler = editJsonFile(configPath, { autosave: true });
 const config = fileHandler.get();
 

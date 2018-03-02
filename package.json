@@ -1,13 +1,17 @@
 {
-  "name": "easybkp",
+  "name": "easybackup",
   "version": "1.0.0",
   "description": "Easy way to backup/restore multiple mongodb databases.",
-  "main": "app.js",
+  "main": "bin/app.js",
+  "preferGlobal": "true",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "easybackup": "bin/app.js"
   },
   "author": "Bruno Morceli - pirofagista@gmail.com",
   "license": "ISC",
