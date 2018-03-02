@@ -1,6 +1,6 @@
 {
   "name": "easybackup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy way to backup/restore multiple mongodb databases.",
   "main": "bin/app.js",
   "preferGlobal": "true",
