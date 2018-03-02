@@ -1,4 +1,7 @@
 {
   "path": "D:\\Development\\Git\\easybackup\\dumps",
-  "dbs": []
+  "dbs": [
+    "test",
+    "boilerplate_development"
+  ]
 }

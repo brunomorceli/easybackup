@@ -10,7 +10,7 @@ const backup = require('../lib/backup');
 
 const configPath = path.join(__dirname, '..', 'config.json');
 const dumpPath = path.join(__dirname, '..', 'dumps');
-const fileHandler = editJsonFile(configPath, { autosave: true });
+const fileHandler = editJsonFile(configPath);
 const config = fileHandler.get();
 
 // ==============================================================
